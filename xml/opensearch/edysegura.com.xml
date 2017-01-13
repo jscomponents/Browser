@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- http://developer.mozilla.org/en/docs/Creating_OpenSearch_plugins_for_Firefox -->
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>Edy Search</ShortName>
+	<Description>Pesquisa no site http://edysegura.com</Description>
+	<InputEncoding>UTF-8</InputEncoding>
+	<Image height="16" width="16" type="image/x-icon">http://us.i1.yimg.com/us.yimg.com/i/yg/img/logo/favicon.ico</Image>
+	<Url type="text/html" method="get" template="http://edysegura.com/?nomeDoParametro={searchTerms}" />
+</OpenSearchDescription>

@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Edy Segura" />
+<meta name="reply-to" content="edy@segura.pro.br" />
+<title>Componente Browser.js</title>
+
+<!-- stylesheet -->
+<link rel="stylesheet" href="css/style.css" type="text/css" title="Padrão" />
+<!--[if lte IE 7]><link rel="stylesheet" href="css/ie-style.css" type="text/css" /><![endif]-->
+
+<!-- search provider -->
+<link rel="search" type="application/opensearchdescription+xml" title="Edy Search" 
+ href="http://edysegura.com/xml/opensearch/edysegura.com.xml" />
+
+<!-- javascript -->
+<script type="text/javascript" src="js/Browser/Browser.js"></script>
+<script type="text/javascript" src="js/Index.js"></script>
+
+</head>
+<body>
+
+<h1>Componente Browser.js</h1>
+<p>
+	Componente que detecta as informações do navegador que está sendo usado, bem como 
+	<a href="http://developer.mozilla.org/en/docs/DOM:window.sidebar" 
+	 title="Como adicionar ao favoritos através de script.">adicionar ao favoritos</a> e adicionar 
+	<a href="http://developer.mozilla.org/en/docs/Creating_OpenSearch_plugins_for_Firefox" 
+	 title="Como criar Search Engine">search engine</a>. <br />
+	Para mais detalhes veja o código fonte. Ou se preferir você pode fazer 
+	<a href="http://files.edysegura.com/labs/browser.zip">download</a> deste 
+	<a href="http://files.edysegura.com/labs/browser.zip">exemplo</a>.
+</p>
+
+<table id="dimensions" summary="Dimensões da página em pixels">
+	<caption>Dimensões da Página</caption>
+	
+	<thead>
+		<tr>
+			<th scope="col">Propriedade</th>
+			<th scope="col">Pixel</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr>
+			<th scope="row">pageWidth:</th>
+			<td><span id="pageWidth">0</span> pixels</td>
+		</tr>
+		<tr>
+			<th scope="row">pageHeight:</th>
+			<td><span id="pageHeight">0</span> pixels</td>
+		</tr>
+		<tr>
+			<th scope="row">viewWidth:</th>
+			<td><span id="viewWidth">0</span> pixels</td>
+		</tr>
+		<tr>
+			<th scope="row">viewHeight:</th>
+			<td><span id="viewHeight">0</span> pixels</td>
+		</tr>
+	</tbody>
+</table>
+
+<table id="properties" summary="Propriedades do componente Browser.js">
+	<caption>Propriedades do componente Browser.js</caption>
+	
+	<thead>
+		<tr>
+			<th>Propriedade</th>
+			<th>Valor</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr>
+			<td colspan="2">Habilite o seu javascript para visualizar este exemplo.</td>
+		</tr>
+	</tbody>
+</table>
+
+<table id="scroll" summary="Scroll da página em pixels">
+	<caption>Scroll da Página</caption>
+	
+	<col class="propriedade" />
+	<col class="pixel" />
+	
+	<thead>
+		<tr>
+			<th scope="col">Propriedade</th>
+			<th scope="col">Pixel</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr>
+			<th scope="row">Scroll X / Left:</th>
+			<td class="pixels"><span id="scrollLeft">0</span> pixels</td>
+		</tr>
+		<tr>
+			<th scope="row">Scroll Y / Top:</th>
+			<td class="pixels"><span id="scrollTop">0</span> pixels</td>
+		</tr>
+	</tbody>
+</table>
+
+</body>
+</html>

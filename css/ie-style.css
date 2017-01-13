@@ -1,0 +1,16 @@
+﻿/**
+ *
+ * Correções para formatacao no IEca!
+ * @author Edy Segura, edy@segura.pro.br
+ *
+ */
+
+table#scroll {
+	position: absolute;
+}
+
+* html table#scroll {
+	position: absolute;
+	top: expression(document.compatMode == "CSS1Compat" ? document.documentElement.scrollTop + 100 + "px" : body.scrollTop + 100 + "px");
+}
+

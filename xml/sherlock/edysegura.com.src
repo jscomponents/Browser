@@ -1,0 +1,26 @@
+<!-- edysegura.com search plugin
+     Author: Edy Segura
+     Email: edysegura@gmail.com
+     Created on: July 9th, 2007
+-->
+
+<search name="Edy Search" 
+	description="A plugin to search edysegura.com"
+	action="http://edysegura.com"
+	searchForm="http://edysegura.com"
+	method="GET"
+	version="7.1"
+>
+	<input name="nomeDoParametro" user="">
+	<interpret
+		resultListStart="delMain"
+		resultListEnd="/html"
+		resultItemStart="delPost"
+		resultItemEnd="/div"
+	>
+</search>
+<browser
+	update="http://edysegura.com/src/edysegura.com.src"
+	updateicon="http://us.i1.yimg.com/us.yimg.com/i/yg/img/logo/favicon.ico"
+	updateCheckDays="7"
+>

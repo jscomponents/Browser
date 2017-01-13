@@ -1,0 +1,41 @@
+﻿/**
+ *
+ * Formatacao para pagina index.html
+ * @author Edy Segura, edy@segura.pro.br
+ *
+ */
+
+caption {
+	font-weight: bold;
+	border-bottom: 1px solid #000;
+}
+
+tbody th {
+	text-align: right;
+	padding: 2px;
+}
+
+table#properties,
+table#dimensions {
+	margin: auto 0 50px 0;
+}
+
+table#properties th {
+	text-align: left;
+}
+
+table#scroll {
+	position: fixed;
+	bottom: 5px;
+	right: 20px;
+	background: #fff;
+	width: 180px;
+}
+
+col.pixel {
+	width: 70px;
+}
+
+td.pixels {
+	text-align: right;
+}
